@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(4, 60, 120) ;
+    width: 200px;
+    border: solid 3px;
+    color: antiquewhite;
+    margin: 10px;
+}
+
+body{
+    display: flex;
+
+}
