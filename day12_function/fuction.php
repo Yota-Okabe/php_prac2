@@ -21,8 +21,8 @@
     greeting('おはようございます', 'ボンジュール');
 
     function calc($fruit, $price){
-        echo '果物：' . $fruit . '<br>';
-        echo '税抜き価格：'  . $price. '円<br>';
+        echo $fruit . 'は';
+        echo '税抜き価格：'  . $price. '、';
         echo '税込価格：' . $price * 1.1 . '円<br>';
     }
     calc('りんご',300);
